@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import Post from "../components/Post";
 import { getAllPostsData } from "../lib/posts";
 
-const Blog = ({posts}) => {
+const Blog = ({ posts }) => {
   return (
     <Layout title="Blog">
       <ul className="m-10">
